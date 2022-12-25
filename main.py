@@ -75,9 +75,9 @@ def log_result(guest_number, violate, time):
     table_y = table_y+50
     Label(top, text=busInfo[0], font=(65), bg='black',
           fg="white").place(x=table_x, y=table_y)
-    Label(top, text=busInfo[1], font=(65), bg='black',
+    Label(top, text=busInfo[2], font=(65), bg='black',
           fg="white").place(x=table_x+250, y=table_y)
-    Label(top, text=str(result[0])+"/"+str(busInfo[2])+"  ", font=(65), bg='black',
+    Label(top, text=str(result[0])+"/"+str(busInfo[1])+"  ", font=(65), bg='black',
           fg="white").place(x=table_x+400, y=table_y)
     Label(top, text=str(result[1]), font=(65), bg='black',
           fg="white").place(x=table_x+600, y=table_y)
